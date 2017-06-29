@@ -1,0 +1,7 @@
+
+number_data_points = 5000;
+Beta = 2;
+y = -Beta*log(rand(1,number_data_points));
+x = 0.2:0.4:10; % Bin Centers
+hist(y,x);
+ylabel('Sayılan')
